@@ -1,0 +1,9 @@
+#background {
+  height: 900px;
+  width: 100vw;
+  display: flex;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  opacity: 0.8;
+}
