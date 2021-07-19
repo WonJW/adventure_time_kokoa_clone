@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #b9be4f;
+  background-color: var(--dark-yellow);
   height: 500vh;
 }
 
@@ -8,13 +8,13 @@
   width: 100%;
   box-sizing: border-box;
   top: 0;
-  background-color: #b9be4f;
+  background-color: var(--dark-yellow);
   z-index: 1;
 }
 
 #chat-screen .status-bar {
   top: 0;
-  background-color: #b9be4f;
+  background-color: var(--dark-yellow);
 }
 
 @keyframes fadeIn {
@@ -93,7 +93,7 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: #e0eb17;
   border-radius: 15px;
   border-top-right-radius: 0px;
   margin-right: 0;
@@ -152,7 +152,7 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--dark-yellow);
   border: none;
   width: 32px;
   height: 32px;

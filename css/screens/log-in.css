@@ -36,10 +36,10 @@
   margin-left: 10px;
 }
 .login-form__input:focus {
-  border-color: #b9be4f;
+  border-color: var(--dark-yellow);
 }
 .login-form__btn {
-  background-color: #b9be4f;
+  background-color: var(--dark-yellow);
   cursor: pointer;
   padding: 20px;
   border-radius: 5px;
